@@ -1,0 +1,91 @@
+# ADR-0001 — Medir el éxito por la autonomía recuperada
+
+**Estado:** Aceptada
+
+**Versión del proyecto:** 0.1.0
+
+**Fecha:** 2026-07-02
+
+---
+
+# Contexto
+
+Tradicionalmente, muchos programas sociales evalúan su impacto mediante indicadores relacionados con la cantidad de personas asistidas, la cantidad de prestaciones brindadas o el tiempo de permanencia dentro del programa.
+
+Si bien estos indicadores permiten medir la actividad del sistema, no necesariamente reflejan si las personas lograron reconstruir un proyecto de vida autónomo.
+
+Durante el diseño del Modelo Integral de Autonomía surgió la necesidad de definir cuál sería el objetivo real del ecosistema y, en consecuencia, cuál sería el principal criterio para evaluar su éxito.
+
+---
+
+# Alternativas consideradas
+
+## Opción A — Medir la cantidad de personas asistidas
+
+Es el enfoque más habitual en programas sociales y permite mostrar rápidamente el alcance del proyecto.
+
+### Motivo para descartarla
+
+La cantidad de personas asistidas no refleja necesariamente el impacto logrado.
+
+Incluso podría incentivar, de manera no intencional, que las personas permanezcan más tiempo dentro del sistema para sostener indicadores favorables.
+
+---
+
+## Opción B — Medir la autonomía recuperada
+
+Evaluar el éxito del sistema según la capacidad de las personas para reconstruir una vida independiente.
+
+### Resultado
+
+**Opción elegida.**
+
+---
+
+# Decisión
+
+El principal indicador de éxito del Modelo Integral de Autonomía será la cantidad de personas que logren recuperar una autonomía suficiente para egresar del programa y sostener un proyecto de vida independiente.
+
+La asistencia constituye una herramienta transitoria para alcanzar ese objetivo, pero no representa el objetivo en sí mismo.
+
+---
+
+# Fundamentación
+
+Esta decisión orienta todo el diseño del modelo.
+
+Cada recurso, programa, unidad productiva o servicio deberá responder a una pregunta fundamental:
+
+> **¿Esta acción aumenta la autonomía de la persona?**
+
+Si la respuesta es negativa, deberá revisarse su necesidad o su diseño.
+
+Este enfoque también favorece la construcción de un sistema que busque reducir progresivamente la dependencia institucional, promoviendo la adquisición de capacidades, redes de apoyo y herramientas para la vida independiente.
+
+---
+
+# Consecuencias
+
+Esta decisión implica que:
+
+- El éxito del proyecto no podrá evaluarse únicamente mediante indicadores de actividad.
+- Será necesario desarrollar indicadores específicos para medir distintos niveles de autonomía.
+- Los programas deberán diseñarse con una estrategia de egreso desde el momento del ingreso.
+- La permanencia prolongada dentro del sistema no constituirá, por sí sola, un resultado positivo.
+
+---
+
+# Preguntas abiertas
+
+- ¿Cómo se definirá objetivamente la autonomía?
+- ¿Qué indicadores permitirán medirla?
+- ¿Cómo se realizará el seguimiento posterior al egreso?
+
+Estas preguntas serán abordadas en versiones futuras del modelo.
+
+---
+
+# Referencias
+
+- Documento Maestro (pendiente)
+- Principios del Modelo (pendiente)
