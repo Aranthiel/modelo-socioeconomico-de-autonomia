@@ -1,10 +1,10 @@
-# Plantilla de Módulo (v0.2)
+# Plantilla de Módulo (v0.3)
 
 Este documento define la estructura estándar que deberán seguir todos los módulos del Modelo Integral de Autonomía.
 
 Su objetivo es facilitar la documentación, mantener la coherencia del proyecto y permitir que diferentes módulos puedan compararse, evaluarse y evolucionar utilizando un mismo criterio.
 
-> **Importante:** Esta plantilla evolucionará junto con el proyecto. Los campos aquí definidos corresponden a la versión 0.2 y podrán modificarse en futuras versiones.
+> **Importante:** Esta plantilla evolucionará junto con el proyecto. Los campos aquí definidos corresponden a la versión 0.3 y podrán modificarse en futuras versiones mediante nuevas decisiones de arquitectura.
 
 ---
 
@@ -49,11 +49,11 @@ Su objetivo es facilitar la documentación, mantener la coherencia del proyecto 
 
 # Productos y Servicios
 
-Los módulos pueden generar distintos tipos de valor. No todos los productos cumplen la misma función dentro del ecosistema.
+Los módulos pueden generar distintos tipos de valor.
 
 ## Bienes de capital
 
-Herramientas, infraestructura o equipamiento que aumentan la capacidad productiva del propio módulo o de otros módulos.
+Infraestructura, herramientas o equipamiento que aumentan la capacidad productiva del ecosistema.
 
 Ejemplos:
 
@@ -66,13 +66,12 @@ Ejemplos:
 
 ## Materias primas e insumos
 
-Materiales producidos para ser utilizados por otros procesos productivos.
+Materiales destinados a alimentar otros procesos productivos.
 
 Ejemplos:
 
 - Filamentos.
 - Placas.
-- Bloques.
 - Compost.
 - Energía.
 - Alimentos sin procesar.
@@ -95,20 +94,20 @@ Ejemplos:
 
 ## Servicios
 
-Capacitaciones, asistencia técnica, mantenimiento, consultoría u otros servicios ofrecidos por el módulo.
+Capacitaciones, asistencia técnica, mantenimiento, consultoría u otros servicios.
 
 ---
 
 # Recursos mínimos
 
-¿Qué se necesita para poner en funcionamiento una Versión Mínima Operativa (VMO)?
+¿Qué se necesita para poner en funcionamiento la Versión Mínima Operativa (VMO)?
 
 Ejemplos:
 
 - Personas.
 - Espacio físico.
-- Herramientas.
 - Equipamiento.
+- Herramientas.
 - Insumos.
 - Convenios.
 
@@ -116,9 +115,9 @@ Ejemplos:
 
 # Inversión inicial
 
-¿Cuál es la inversión mínima necesaria para poner en marcha el módulo?
+¿Cuál es la inversión mínima necesaria?
 
-¿Cómo se espera financiar esa inversión?
+¿Cómo se espera obtener ese capital?
 
 Ejemplos:
 
@@ -126,7 +125,6 @@ Ejemplos:
 - Donaciones.
 - Subsidios.
 - Empresas.
-- Organismos públicos.
 - Crowdfunding.
 - Convenios.
 
@@ -138,32 +136,46 @@ Ejemplos:
 
 ¿Cómo contribuye a la sostenibilidad del ecosistema?
 
-Puede hacerlo de distintas maneras:
+Puede hacerlo mediante:
 
-- Generando ingresos.
-- Reduciendo costos.
-- Produciendo bienes para otros módulos.
-- Prestando servicios.
-- Fortaleciendo la capacidad productiva del ecosistema.
+- Generación de ingresos.
+- Reducción de costos.
+- Producción para otros módulos.
+- Prestación de servicios.
+- Formación de personas.
+- Incremento de la capacidad instalada.
 
-No todos los módulos necesitan ser económicamente autosuficientes de forma individual, pero sí aportar valor al sistema en su conjunto.
+---
+
+# Recorrido de la persona dentro del módulo
+
+Describir las etapas que atraviesa una persona mientras participa en este módulo.
+
+Ejemplo:
+
+- Ingreso.
+- Formación.
+- Práctica.
+- Producción.
+- Especialización.
+- Inserción laboral o emprendimiento.
+- Mentoría (opcional).
 
 ---
 
 # Estrategia de crecimiento
 
-¿Cómo se espera que evolucione este módulo a lo largo del tiempo?
+¿Cómo crecerá este módulo con el tiempo?
 
-Puede crecer mediante:
+Describir cómo aumentará progresivamente su capacidad instalada y su impacto.
+
+Ejemplos:
 
 - Reinversión en herramientas.
-- Ampliación de infraestructura.
-- Formación de nuevos instructores.
 - Incorporación de nuevas tecnologías.
+- Formación de instructores.
 - Expansión territorial.
-- Provisión de recursos para otros módulos.
-
-Describir cuál será la estrategia prevista para aumentar progresivamente su impacto y su capacidad instalada.
+- Integración con otros módulos.
 
 ---
 
@@ -185,7 +197,7 @@ Describir cuál será la estrategia prevista para aumentar progresivamente su im
 
 # Relación con otros módulos
 
-¿Qué módulos necesita para funcionar?
+¿Qué módulos necesita?
 
 ¿A cuáles fortalece?
 
@@ -195,17 +207,17 @@ Describir cuál será la estrategia prevista para aumentar progresivamente su im
 
 # Indicadores
 
-¿Cómo sabremos que el módulo está funcionando correctamente?
+¿Cómo sabremos que el módulo funciona correctamente?
 
 Ejemplos:
 
 - Personas capacitadas.
 - Empleos generados.
+- Ingresos generados.
+- Costos reducidos.
 - Residuos recuperados.
 - Energía producida.
 - Alimentos producidos.
-- Ingresos generados.
-- Costos reducidos.
 - Capacidad instalada incorporada.
 
 ---
@@ -232,11 +244,9 @@ Ejemplos:
 
 # Ideas futuras
 
-Espacio destinado a registrar mejoras sin modificar el diseño actual del módulo.
+Registrar aquí únicamente ideas para futuras versiones del módulo.
 
-Las nuevas ideas deberán incorporarse primero al backlog antes de formar parte de una nueva versión del módulo.
-
----
+Las nuevas propuestas deberán incorporarse primero al backlog antes de formar parte del diseño oficial del módulo.
 
 # Ideas futuras
 
